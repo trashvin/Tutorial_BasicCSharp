@@ -29,26 +29,53 @@ C# has many other reasons for being popular and in demand. Few of the reasons ar
 
 - [Guide in developing C# application using Visual Studio Code](https://code.visualstudio.com/Docs/languages/csharp)
 
-### Built in types and Variables
+### Built in Types and Variables
+
+- [Introduction to Types](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/types-variables.md)
 
 ### Working with Strings
 
+- [Hello Strings](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/strings.md)
+
 ### Working with Date and Times
+
+- [Dates in C#](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/datetimes.md)
 
 ### Conditional Statements
 
+- [Making Decisions](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/making-decisions.md)
+- [Logical Operations](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/logical-expressions.md)
+
 ### Loop Statements
+
+- [Looping Based on Logical Expressions](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/looping-logical-expression.md)
+- [Looping a Known Number of Times](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/for-loops.md)
+
+### Arrays and List
+
+- [Arrays vs List](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/arrays-collections.md)
+- [Looping Through Collections](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/looping-collections.md)
 
 ### Methods
 
+- [Defining and Calling Methods](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/methods.md)
+
 ### Namespaces
+
+- [Namespaces in C#](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/namespaces.md)
 
 ### Handling Exceptions
 
-### Extension Methods and Optional Parameter
+- [Catching and Handling Expections](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/exceptions.md)
+
+### More Concepts for Reading
+
+- [Optional Parameters](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments)
+- [Extension Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)
+- [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
 
 <hr/>
 
 <div style="text-align: right"> 
-<a href='https://trashvin.github.io/learn-basic-csharp/'>Home</a> | <a href = 'https://trashvin.github.io/learn-basic-csharp/beginning-csharp'>Next</a>
+<a href='https://trashvin.github.io/learn-basic-csharp/'>Home</a> | <a href = 'https://trashvin.github.io/learn-basic-csharp/intro-to-oop-using-csharp'>OOP in C#</a>
 </div>
