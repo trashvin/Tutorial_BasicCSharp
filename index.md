@@ -21,10 +21,10 @@ Beginning C#
 - Conditional Statements
 - Loop Statements
 - Methods
-- Events
 - Namespaces
 - Handling Exceptions
-- Extension Methods and Optional Parameter
+- Files
+- Advance Concepts
 
 Object Oriented Programming with C#
 - Understandun classes and objects

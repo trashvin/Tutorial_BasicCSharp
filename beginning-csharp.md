@@ -60,6 +60,11 @@ C# has many other reasons for being popular and in demand. Few of the reasons ar
 
 - [Defining and Calling Methods](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/methods.md)
 
+### Files
+
+- [Writing to Files](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-write-to-a-text-file)
+- [Reading a File](https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file)
+
 ### Namespaces
 
 - [Namespaces in C#](https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/namespaces.md)
