@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E27C2448-F4B6-4AE5-A425-6022F92EF906}</ProjectGuid>
+    <ProjectGuid>{5C568423-DE6D-408C-B8EA-2315C2164B88}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lecture_sample_codes</RootNamespace>
-    <AssemblyName>lecture-sample-codes</AssemblyName>
+    <RootNamespace>sample_empty_projet</RootNamespace>
+    <AssemblyName>sample_empty_projet</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

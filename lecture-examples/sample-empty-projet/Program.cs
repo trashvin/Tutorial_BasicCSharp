@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lecture_sample_codes
+namespace sample_empty_projet
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string name = "Cruel World";
-            Console.WriteLine($"Hello {name}");
-            Console.ReadLine();
         }
     }
 }
