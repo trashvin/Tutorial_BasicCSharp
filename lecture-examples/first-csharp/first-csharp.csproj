@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C568423-DE6D-408C-B8EA-2315C2164B88}</ProjectGuid>
+    <ProjectGuid>{4F5C5315-7CFE-4A78-9CE4-1E9B28AFD83B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>sample_empty_projet</RootNamespace>
-    <AssemblyName>sample_empty_projet</AssemblyName>
+    <RootNamespace>first_csharp</RootNamespace>
+    <AssemblyName>first-csharp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
