@@ -1,0 +1,8 @@
+﻿[INFO] 10:01:00 Starting the application
+[INFO] 10:02:00 Starting the database
+[WARN] 10:03:00 Cannot open the config file
+[ERR] 10:04:00 Cannot open the database
+[DEBUG] 10:04:00 Connection string is invalid
+[INFO] 10:05:00 Logging the error
+[INFO] 10:06:00 Stopping the services
+[INFO] 10:07:00 Stopping the application
