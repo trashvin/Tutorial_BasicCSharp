@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pos_library.abstracts.APOSMachine">
+    <Position X="3.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IQAACAAAACQAEAAAAAAAAAIAAAgAABBgAwAAAAACAAA=</HashCode>
+      <FileName>abstracts\APOSMachine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pos_library.abstracts.ATransaction">
+    <Position X="11.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAQAQAEAAAAAAAAAAAAIEAABAAA=</HashCode>
+      <FileName>abstracts\ATransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pos_library.classes.Transaction">
+    <Position X="11.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pos_library.classes.pos.desktops.DesktopPOS">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\desktops\DesktopPOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pos_library.classes.pos.WebPOS">
+    <Position X="1" Y="1.75" Width="2" />
+    <InheritanceLine Type="pos_library.abstracts.APOSMachine" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="2.312" />
+        <Point X="3" Y="2.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAEAAAIAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\WebPOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pos_library.classes.pos.mobiles.MobilePOS">
+    <Position X="6" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAEAAIAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\mobiles\MobilePOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pos_library.classes.pos.desktops.LinuxDesktopPOS" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\desktops\LinuxDesktopPOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pos_library.classes.pos.desktops.WindowsDesktopPOS" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\desktops\WindowsDesktopPOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pos_library.classes.pos.mobiles.AndroidMobilePOS" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\mobiles\AndroidMobilePOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pos_library.classes.pos.mobiles.IOSMobilePOS" Collapsed="true">
+    <Position X="8.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\pos\mobiles\IOSMobilePOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -8,9 +8,10 @@ namespace pos_library.tools
 {
     public static class UITools
     {
-        public static void Print(string message)
+        public static void Print(string message, bool newLine = true)
         {
-            Console.WriteLine($"{DateTime.Now} : {message}");
+            if ( newLine ) Console.WriteLine($"{DateTime.Now} : {message}");
+            else Console.Write($"{DateTime.Now} : {message}");
         }
     }
 }

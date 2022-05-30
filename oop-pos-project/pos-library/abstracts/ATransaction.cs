@@ -23,11 +23,11 @@ namespace pos_library.abstracts
 
         public virtual void ShowTransactionDetail()
         {
-            StringBuilder tranDetails = new StringBuilder("Transaction Detail : ");
+            StringBuilder tranDetails = new StringBuilder("-");
             tranDetails.Append($"TranNo = {TransactionNumber} ; ");
-            tranDetails.Append($"TranDate = {TransactionDate} ; ");
-            tranDetails.Append($"TranTotal = {TransactionTotal} ; ");
-            tranDetails.Append($"TranType = {TranType.ToString()} ; ");
+            tranDetails.Append($"Date = {TransactionDate} ; ");
+            tranDetails.Append($"Total = {TransactionTotal} ; ");
+            tranDetails.Append($"Type = {TranType.ToString()} ; ");
 
             string voidDesc = IsVoided ? "VOIDED" : "VALID";
 

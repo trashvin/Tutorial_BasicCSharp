@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6E08CBBF-5A77-4D92-8448-62F856B9E3DC}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>pos_library</RootNamespace>
-    <AssemblyName>pos-library</AssemblyName>
+    <ProjectGuid>{D3EEECA1-E8AE-44BE-BB2B-B1E9F5F2746F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>activity1_main</RootNamespace>
+    <AssemblyName>activity1-main</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,25 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstracts\APOSMachine.cs" />
-    <Compile Include="abstracts\ATransaction.cs" />
-    <Compile Include="classes\pos\desktops\DesktopPOS.cs" />
-    <Compile Include="classes\pos\desktops\LinuxDesktopPOS.cs" />
-    <Compile Include="classes\pos\desktops\WindowsDesktopPOS.cs" />
-    <Compile Include="classes\pos\mobiles\AndroidMobilePOS.cs" />
-    <Compile Include="classes\pos\mobiles\IOSMobilePOS.cs" />
-    <Compile Include="classes\pos\mobiles\MobilePOS.cs" />
-    <Compile Include="classes\pos\WebPOS.cs" />
-    <Compile Include="classes\Transaction.cs" />
-    <Compile Include="Constants.cs" />
-    <Compile Include="interfaces\IDesktopPOS.cs" />
-    <Compile Include="interfaces\IMobilePOS.cs" />
-    <Compile Include="interfaces\IWebPOS.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tools\UITools.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="POSDesign.cd" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="first.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="readme.txt" />
+    <Content Include="last.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
