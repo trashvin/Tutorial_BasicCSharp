@@ -1,5 +1,5 @@
-# __learn basic csharp__
+# __Basic C# Tutorial__
 
-This is the repo for an introduction to C# lesson. Formal learning page is at [https://trashvin.github.io/learn-basic-csharp/](https://trashvin.github.io/learn-basic-csharp/).
+This is the repo for an introduction to C# lesson. Formal learning page is at [https://trashvin.github.io/Tutorial_BasicCSharp/](https://trashvin.github.io/Tutorial_BasicCSharp/)
 
 For any corrections please create a pull request.
