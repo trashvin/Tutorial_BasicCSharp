@@ -1,0 +1,34 @@
+﻿Classes
+- properties
+- methods
+- fields
+
+Access Modifiers 
+- private
+- public
+- protected
+- internal
+
+Abstract Classess vs Concrete
+- abstract - can not instantiated (blue print)
+- concrete - instantiation ( constructor / destructor )
+- abstract methods - does not contain any implementation
+- virtual methods - methods that can be overriding (virtual , override) polymorphism
+- overriding vs overloading
+--- overloading - using the same method with diff parameters 
+--- e.g.  int add(); int add(int number1);  int add(int number1, int number2);
+--- constructor overloading  DesktopPOS(); DesktopPOS(string ipAddress);
+
+
+Interfaces
+--- IList, IDispose
+
+
+
+
+
+
+
+
+
+
