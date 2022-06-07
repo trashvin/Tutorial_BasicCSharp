@@ -33,6 +33,9 @@ namespace pos_library.classes.pos.desktops
             UITools.Print($"This linux desktop POS with version {Version} is located in {POSLocation}");
         }
 
+
+        public void Beep() { }
+
         public override void SummarizeTransactions()
         {
             var totalSale = 0M;

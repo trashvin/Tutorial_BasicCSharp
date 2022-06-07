@@ -9,14 +9,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="pos_library.abstracts.ATransaction">
-    <Position X="11.5" Y="1" Width="2" />
+    <Position X="11" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAACAAAAAAAAAQAQAEAAAAAAAAAAAAIEAABAAA=</HashCode>
       <FileName>abstracts\ATransaction.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="pos_library.classes.Transaction">
-    <Position X="11.5" Y="4.25" Width="2" />
+    <Position X="11" Y="3.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>classes\Transaction.cs</FileName>
@@ -62,7 +62,7 @@
   <Class Name="pos_library.classes.pos.desktops.WindowsDesktopPOS" Collapsed="true">
     <Position X="8.5" Y="1.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>classes\pos\desktops\WindowsDesktopPOS.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -76,7 +76,7 @@
   <Class Name="pos_library.classes.pos.mobiles.IOSMobilePOS" Collapsed="true">
     <Position X="8.5" Y="5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>classes\pos\mobiles\IOSMobilePOS.cs</FileName>
     </TypeIdentifier>
   </Class>
