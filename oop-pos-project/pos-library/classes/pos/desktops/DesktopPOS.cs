@@ -31,6 +31,11 @@ namespace pos_library.classes.pos.desktops
             return _transactions;
         }
 
+        public override void ClearTransactions()
+        {
+            base.ClearTransactions();
+        }
+
         public override void PrintPOSDetail()
         {
             UITools.Print($"This desktop POS with version {Version} is located in {POSLocation}");

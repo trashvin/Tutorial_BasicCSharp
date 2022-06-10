@@ -63,7 +63,7 @@ namespace pos_library.abstracts
         /// </summary>
         public abstract void SummarizeTransactions();
 
-        public void ClearTransactions()
+        public virtual void ClearTransactions()
         {
             _transactions.Clear();
         }

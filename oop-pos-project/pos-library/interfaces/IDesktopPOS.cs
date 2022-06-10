@@ -9,6 +9,7 @@ namespace pos_library.interfaces
     interface IDesktopPOS
     {
         string POSLocation { get; set; }
-       
     }
+
+
 }

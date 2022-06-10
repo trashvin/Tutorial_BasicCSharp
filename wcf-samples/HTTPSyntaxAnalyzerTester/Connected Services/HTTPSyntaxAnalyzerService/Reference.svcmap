@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="641a335c-55b0-49af-aedd-40344d84b736" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50354/HTTPSyntaxAnalyzer.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HTTPSyntaxAnalyzer.disco" MetadataType="Disco" ID="5be7197b-457c-48f3-9e16-3e3d9edfb69e" SourceId="1" SourceUrl="http://localhost:50354/HTTPSyntaxAnalyzer.svc?disco" />
+    <MetadataFile FileName="HTTPSyntaxAnalyzer.xsd" MetadataType="Schema" ID="87430cd3-da63-4715-8672-8605bf997a05" SourceId="1" SourceUrl="http://localhost:50354/HTTPSyntaxAnalyzer.svc?xsd=xsd2" />
+    <MetadataFile FileName="HTTPSyntaxAnalyzerService.wsdl" MetadataType="Wsdl" ID="9c506395-a492-40a6-a797-42cd9d26d488" SourceId="1" SourceUrl="http://localhost:50354/HTTPSyntaxAnalyzer.svc?wsdl" />
+    <MetadataFile FileName="HTTPSyntaxAnalyzer1.xsd" MetadataType="Schema" ID="15bcbe3d-3ebe-4d8d-b5af-2ed23f84faaa" SourceId="1" SourceUrl="http://localhost:50354/HTTPSyntaxAnalyzer.svc?xsd=xsd0" />
+    <MetadataFile FileName="HTTPSyntaxAnalyzer2.xsd" MetadataType="Schema" ID="d788a929-e6b0-41e4-8280-aeb9571c063e" SourceId="1" SourceUrl="http://localhost:50354/HTTPSyntaxAnalyzer.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

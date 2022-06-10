@@ -25,7 +25,7 @@
   <Class Name="pos_library.classes.pos.desktops.DesktopPOS">
     <Position X="6" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AUAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AUAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>classes\pos\desktops\DesktopPOS.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -62,7 +62,7 @@
   <Class Name="pos_library.classes.pos.desktops.WindowsDesktopPOS" Collapsed="true">
     <Position X="8.5" Y="1.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAEAAAAAAAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>classes\pos\desktops\WindowsDesktopPOS.cs</FileName>
     </TypeIdentifier>
   </Class>

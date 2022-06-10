@@ -72,5 +72,7 @@ namespace pos_library.classes.pos.mobiles
             UITools.Print($"Source : {POSType} - {IPAddress}");
             UITools.Print("-----------------------------------------");
         }
+
+        
     }
 }
